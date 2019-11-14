@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Sign Up - ASSIST</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">ASSIST</a></div>
+				<a href="#menu"><span>Menu</span></a>
+				
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="AboutUs.html">About Us</a></li>
+					<li><a href="HowTo.html">How It Works</a></li>
+					<li><a href="SignUp.html"> Sign Up</a></li>
+				</ul>
+			</nav>
+			
+		<!-- Main -->
+			<div id="main" class="container">
+			
+		<!-- Content -->
+			<h3 align = "center">Sign Up to Drive</h3>
+			<p> Interested in becoming a Rider?<br>        
+			<a href="SignUp.html" class="button alt" align = "center"> Sign up to Ride </a></p><hr/>
+
+				<form method="post" action="#">
+					<div class="row">
+						<div class="column">
+							<input type="text" name="firstname" id="name" value="" placeholder="First Name" /><br/>
+						
+							<input type="text" name="firstname" id="name" value="" placeholder="Last Name" /><br/>
+						
+							<input type="email" name="email" id="email" value="" placeholder="Email" />
+							 
+						</div>	
+							
+						<div class="column">
+							<input type="tel" name="phone" pattern ="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number '555-555-5555'"><br/>
+						
+							<input type="date" name="bday" placeholder="Birthday"><br/>
+						</div>
+					</div><br>
+					
+		<!-- Break -->
+					<div class="6u 12u$(small)">
+						<input type="radio" id="priority-low" name="priority" checked>
+						<label for="priority-low">Female</label>
+					
+						<input type="radio" id="priority-normal" name="priority">
+						<label for="priority-normal">Male</label>
+					
+						<input type="radio" id="priority-high" name="priority">
+						<label for="priority-high">Do Not Wish to Answer</label>
+					</div>
+					
+		<!-- Break -->
+					<div class="6u$ 12u$(xsmall)">
+					<h4> Do you have a qualifying vehicle? </h3>
+						<div class="select-wrapper" style="text-color: #0000FF">
+							<select name="category" id="category">
+								<option value="" >- Choose one -</option>
+								<option value="1">I have my own car</option>
+								<option value="1">I need my own car</option>
+							</select>
+						</div>
+					</div>
+		
+		
+		<!-- Break -->
+					<div class="12u$">
+					<h4> Let us know what makes you a perfect candidate! </h3>
+						<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+					</div>
+					
+		<!-- Break -->
+					<div class="6u 12u$(small)">
+						<input type="checkbox" id="copy" name="copy">
+						<label for="copy">Email me a copy of this message</label>
+					</div>
+					<div class="6u$ 12u$(small)">
+						<input type="checkbox" id="human" name="human" checked>
+						<label for="human">I am a human and not a robot</label>
+					</div>
+		<!-- Break -->
+					<div class="12u$">
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" onclick="alert('You have submitted your application!');" /></li>
+							<li><input type="reset" value="Reset" class="alt" /></li>
+						</ul>
+					</div>
+				</div>
+			</form>
+
+		
+				
+			
+					
+					
+					
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<h2>Contact Me</h2>
+
+					<form action="#" method="post">
+
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text" placeholder="Name">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email">
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Send Message" class="button alt" type="submit"></li>
+						</ul>
+					</form>
+
+					
+
+				</div>
+			</footer>
+	
+			
+			
+			
+				
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
